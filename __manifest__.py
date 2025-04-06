@@ -7,7 +7,7 @@
     "author": "TuNombre",
     "depends": ["purchase", "stock"],
     "data": [
-        "views/purharse_label_wizard_view.xml",
+        "views/pucharse_label_wizard_view.xml",
         "views/pucharse_order_view.xml"
     ],
     "installable": True,
