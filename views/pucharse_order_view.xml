@@ -1,15 +1,15 @@
 <odoo>
     <record id="view_purchase_order_form_inherit_label" model="ir.ui.view">
-        <field name="name">purchase.order.form.inherit.label</field>
-        <field name="model">purchase.order</field>
-        <field name="inherit_id" ref="purchase.purchase_order_form"/>
+        <field name="name">pucharse.order.form.inherit.label</field>
+        <field name="model">pucharse.order</field>
+        <field name="inherit_id" ref="pucharse.pucharse_order_form"/>
         <field name="arch" type="xml">
             <header position="inside">
-                <button name="%(purchase_label_print.action_print_label_wizard)d"
+                <button name="%(pucharse_label_print.action_print_label_wizard)d"
                         string="Imprimir Etiquetas"
                         type="action"
                         class="btn-secondary"
-                        attrs="{'invisible': [('state', '!=', 'purchase')]}"/>
+                        attrs="{'invisible': [('state', '!=', 'pucharse')]}"/>
             </header>
         </field>
     </record>
