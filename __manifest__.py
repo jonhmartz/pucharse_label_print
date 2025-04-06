@@ -5,7 +5,7 @@
     "description": "Imprime etiquetas desde órdenes de compra.",
     "category": "Pucharses",
     "author": "TuNombre",
-    "depends": ["purchase", "stock"],
+    "depends": ["pucharse", "stock"],
     "data": [
         "views/pucharse_label_wizard_view.xml",
         "views/pucharse_order_view.xml"
