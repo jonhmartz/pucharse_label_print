@@ -5,7 +5,7 @@
         <field name="arch" type="xml">
             <form string="Imprimir Etiquetas">
                 <group>
-                    <field name="purchase_id" invisible="1"/>
+                    <field name="pucharse_id" invisible="1"/>
                 </group>
                 <footer>
                     <button name="print_labels" string="Imprimir" type="object" class="btn-primary"/>
